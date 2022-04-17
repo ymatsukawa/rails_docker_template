@@ -41,11 +41,14 @@ HTTP/1.1 200 OK
 before running
 
 ```
-$ docker-comopse run app rake ridge:seed RAILS_ENV=test
+$ docker-comopse run app rake ridge:reset RAILS_ENV=test
 ```
 
 ### unit test
 
 ```
 $ docker-compose run app rspec
+
+# specific spec
+$ docker-compose run app rspec/model
 ```
