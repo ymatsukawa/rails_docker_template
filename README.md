@@ -41,7 +41,7 @@ HTTP/1.1 200 OK
 before running
 
 ```
-$ docker-comopse run app rake ridge:reset RAILS_ENV=test
+$ docker-compose run app rake ridge:reset RAILS_ENV=test
 ```
 
 ### unit test
